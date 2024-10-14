@@ -39,13 +39,13 @@ python QT-WEAVER.py -i <input-quartet-distribution-file> -o <output-quartet-dist
 ``` 
 #### To set the weighting scheme and the conflict set size, use the -w and -m flags respectively. 
 ```bash
-python QT-WEAVER.py -i <input-quartet-distribution-file> -o <output-quartet-distribution-file> -m <weightig> -m <mode>
+python QT-WEAVER.py -i <input-quartet-distribution-file> -o <output-quartet-distribution-file> -w <weighting> -m <mode>
 ``` 
 
 ## Example
 
-There are two gene quartet distribution files provided in the repository.
+Two quartet distribution files have been provided in the repository.
 
 ```bash
-python3 QT-WEAVER.py -i data/test_15_taxa.wqrts -o data/test_15_taxa_corrected.wqrts
+python QT-WEAVER.py -i data/test_15_taxa.wqrts -o data/test_15_taxa_corrected.wqrts
 ``` 
